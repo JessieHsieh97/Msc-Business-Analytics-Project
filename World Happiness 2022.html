@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>2022 World Happiness Score</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="happyimage1">
+        <img src="https://cdn.glitch.global/4723dab9-1e99-4a7a-a978-22a2ecaf566f/picwish-3.png?v=1679014046320"/>
+      </div>
+      <h1 class="title">World Happiness <br>2022</h1>
+      <div class="happyimage2">
+        <img src="https://cdn.glitch.global/4723dab9-1e99-4a7a-a978-22a2ecaf566f/%E6%88%AA%E5%9C%96%202023-03-17%20%E4%B8%8A%E5%8D%8812.36.27.png?v=1679014056762"/>
+      </div>
+    </div>
+
+
+    <div class = "intro">
+    <div class="discription1">
+      <p>
+The World Happiness Report is an annual publication that measures and analyzes the happiness and well-being of people in countries around the world. It is produced by the United Nations Sustainable Development Solutions Network and powered by the Gallup World Poll data. First published in 2012, the World Happiness Report has become an important tool for policymakers, researchers, and the general public to better understand the factors that contribute to happiness and well-being. It provides insights into the social and economic conditions that affect people's lives around the world, and is used to inform government policies and promote sustainable development.
+
+      </p>
+    </div>
+    <div class="intro-title">
+      <p>
+        What is World Happiness Report?
+      </p>
+    </div>
+    </div>
+    <div class="container-map">
+      <h2 class="headline">World Happiness Score Map</h2>
+      <div
+        class="map-container"
+        id="88dbb5da-f45f-415c-b3ff-becaaef3866d"
+      ></div>
+      <div class="discription2">
+        <p>Turn to check the scores!</p>
+      </div>
+      <div class = "discription2-1">
+        <p>
+          <b>Have a quick look at the happiness levels across different countries!</b><br>The highest Happiness Scores are concentrated in countries in Northern Europe, while the lowest Happiness Scores are generally found in sub-Saharan Africa and parts of the Middle East. We will talk more about how the scores are scored, but for sure it's not just about a smile on someone's face. It reflects how well a country is doing in terms of economic production, social support, life expectancy, freedom, absence of corruption, and generosity.
+        </p>
+      </div>
+    </div>
+    <div class="Wordcloud">
+        <img
+          src="https://cdn.glitch.global/4723dab9-1e99-4a7a-a978-22a2ecaf566f/wordcloud.png?v=1677511631238"
+        />
+        <div class="cloudintro">
+          <p>
+            The word cloud of happiness scores in 2022 paints a clear picture of the global happiness landscape, with Finland and Denmark standing out as the largest and most prominent nations.             The rankings confirm that the Nordic countries continue to outperform the rest of the world in happiness metrics, with their scores far exceeding those of other nations.
+          </p>
+      </div>
+    </div>
+    <!--     <h2 class="trend-headline">2022 Top10 Countries Happiness Score Trend</h2> -->
+    <div class="container-trend">
+      <h2 class="trend-headline">2022 Top10 Countries Happiness Score Trend</h2>
+      <div id="dc463d36-84f4-4689-af1b-302642033b9e" class="trend"></div>
+      <div class="discription3">
+        <p>
+          <b
+            >You might be curious, are countries that have high scores always
+            happy?</b> <br />According to the five years trend of 2022 top 10 countries, most of the countries improved through out the years and sustained the rankings. However, in most      countries 2022 does not  seems to be a perfect year . Recalling what happened in 2022, the war between Russia and Ukraine, surging inflation rate in the post Covid period, climate changes of brutal heat waves and drought around the world... <br>All big events more or less influenced the variables that make up the happiness score.<br> <br>However, definitely keep an eye on Israel! <br>This country hopped into the top ten in 2022, coming a long way improving 8% in five years!
+        </p>
+      </div>
+    </div>
+    <div class="donut-headline">
+      <h2 class="donut-headline">
+        2022 Top3 Countries Happiness Score Card
+      </h2>
+    </div>
+    <div class="donut">
+      <div id="e85f6804-109e-4c75-87cd-7d47ed0a1cfd" class="Finland"></div>
+      <div id="ed31c670-b7d2-4d1b-ab57-e80bf06f6e83" class="Denmark"></div>
+      <div id="1908f1ca-86cd-4c70-a83e-070bf39eac9f" class="Iceland"></div>
+    </div>
+    <div class ="colorscale">
+      <img src="https://cdn.glitch.global/4723dab9-1e99-4a7a-a978-22a2ecaf566f/%E6%88%AA%E5%9C%96%202023-03-21%20%E4%B8%8B%E5%8D%884.51.25.png?v=1679417527029"
+        /> 
+    </div>
+    <div class= "discription4">
+      <p>
+        <br>Besides Dystopia +residual, we can see that the top three countries in 2022 have a high score in GDP per capita and Social support. <br>This suggests that the success of the Scandinavian welfare state is reflected in the high happiness rankings, as the Nordic social welfare model continues to deliver high levels of well-being to its citizens. Moreover, the similarity in the six scores implies that this may be the secret combination toward a high happiness score!
+      </p>
+    </div>
+      <div class="discription4-1">
+        <p>
+          <br> Six Key Factors:
+        </p>
+      <div class="discription4-2">
+        <p>
+          <b>Economic Production</b>, <b>Social Support</b>, <b>Life Expectancy</b>, <b>Freedom</b>, <b>Absence of Corruption</b>, and <b>Generosity</b>. <br />These factors contribute to
+overall life evaluations and determine whether a country's happiness level is higher or lower than that of Dystopia, a hypothetical country that represents the world's lowest national averages for each of the six factors. In other words, the happiness score measures how well a country is doing in these key areas compared to the worst-case scenario. 
+        </p>
+      </div>
+    </div>
+      
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="happiness_map_14.html"></script>
+    <script src="scripts/trend.js"></script>
+    <script src="scripts/map.js"></script>
+    <script src="scripts/Finland.js"></script>
+    <script src="scripts/Iceland.js"></script>
+    <script src="scripts/Denmark.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
