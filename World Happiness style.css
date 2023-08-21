@@ -1,0 +1,253 @@
+/* Reset the default styles for all elements */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the background color for the page */
+body {
+  background-color: #fff7eb;
+}
+
+/* Style the container for the header */
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff7eb;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 7.1em;
+  text-align: center;
+  font-family: Marker Felt, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-left: 50px;
+  color: #b83b56;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+
+
+/* Style the image in the header */
+.image-container {
+  height: auto;
+  width: 90vw;
+}
+
+
+.intro {
+  display: flex;
+  flex-direction: row;
+
+  background-color: rgba(244, 217, 177, 0.5);
+  padding: 20px;
+  border-radius: 30px;
+  width: 90vw; 
+  margin: 0 auto;  
+  
+}
+
+.discription1 {
+  padding: 30px;
+  font-family: Georgia, sans-serif;
+  text-align: left;
+  top:-10px;
+  font-size:16px;
+  line-height: 2.0em;
+  width:90%;
+  padding: 20px;
+}
+
+
+.intro-title {
+  color: #AF9B7E;
+  padding: 10px;
+  font-size: 5.1em;
+  padding: 20px;
+  font-family: Palatino, serif;
+  border-radius: 30px;
+  text-align: right;
+}  
+
+
+
+/* Style the container for the map */
+.container-map {
+  background-color: #fff7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 80px;
+}
+
+/* Style the headline for the map */
+.headline {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-left: 50px;
+
+}
+
+/* Style the container for the map container */
+.map-container {
+  height: 600px;
+  width: 1000px;
+  
+}
+
+.discription2 {
+  font-size: 20px;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+  font-family: Georgia, serif;
+  text-align: center;
+  background-color: #d45971;
+  color: white;
+}
+
+.Wordcloud {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Wordcloud img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cloudintro{
+  padding:50px;
+  font-family: Georgia, serif;
+  text-align: center;
+  top:-10px;
+  font-size:20px;
+  line-height: 2.0em;
+}
+
+.discription2-1{
+  padding:50px;
+  font-family: Georgia, serif;
+  text-align: center;
+  top:-10px;
+  font-size:20px;
+  line-height: 2.0em;
+}
+
+/* Style the container for the trend chart */
+.container-trend {
+  background-color: #fff7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style the chart in the trend container */
+.trend-headline {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.trend {
+  height: 600px;
+  width:900px
+}
+
+.discription3 {
+  padding:50px;
+  font-family: Georgia, serif;
+  text-align: center;
+  top:-10px;
+  font-size:20px;
+  line-height: 2.0em;
+
+}
+
+
+.donut-headline{
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  right: 50%;
+  text-align: center;
+}
+
+
+
+
+.donut{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+.colorscale {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  right: 50%;
+  text-align: center;
+}
+
+
+.discription4{
+  padding:50px;
+  font-family: Georgia, serif;
+  text-align: center;
+  font-size:20px;
+  line-height: 2.0em;
+}
+
+.discription4-1 {
+  font-family: Georgia, serif;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px 50px;
+  
+
+}
+
+.discription4-2 {
+  padding: 20px 50px;
+  font-family: Georgia, serif;
+  text-align: center;
+  font-size: 20px;
+  line-height: 2.0em;
+  margin-bottom: 30px; 
+}
+
+
+
+/* Style the default text color for the page */
+body, h1, h2 {
+  color: #333333;
+}
